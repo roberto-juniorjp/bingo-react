@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    rgb(59, 187, 226) 0%,
+    rgb(33, 98, 118) 100%
+  );
+  color: white;
+}

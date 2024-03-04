@@ -1,0 +1,58 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.formContainer form input {
+    width: 50%;
+    margin: 10px;
+    height: 50px;
+}
+
+#campoQuantBolas {
+    font-size: 30px;
+    text-align: center;
+}
+
+.formContainer > p {
+    color: #ffbbbb;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.formContainer h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.greenButton {
+    background: #3e924b;
+    color: white;
+    border: 2px solid white;
+    font-size: 24px;
+    font-family: Montserrat;
+    cursor: pointer;
+    min-height: 54px;
+}
+
+.redButton {
+    background: #923e3e;
+    color: white;
+    border: 2px solid white;
+    font-size: 24px;
+    font-family: Montserrat;
+    cursor: pointer;
+    min-height: 54px;
+}
